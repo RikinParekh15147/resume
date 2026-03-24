@@ -1,16 +1,17 @@
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[10pta]{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \usepackage{tfrupee}
+\usepackage{fontawesome5}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Rikin Parekh} % Your name
-\lastUpdated{April, 2025}
+\lastUpdated{March, 2026}
 
 % You can merge both of these into a single line, if you do not have a website.
 \address{
 % +91 8320 33 8778 \\ 
-Ahmedabad, Gujarat \\ \href{mailto:rikinparekh15147@gmail.com}{rikinparekh15147@gmail.com} \\ \href{https://linkedin.com/in/parekh-rikin}{linkedin.com/in/parekh-rikin}} 
+Ahmedabad, Gujarat \\ \href{mailto:rikinparekh15147@gmail.com}{rikinparekh15147@gmail.com} \\ \href{https://linkedin.rikinparekh.in}{linkedin.rikinparekh.in}} 
 \address{  }  
 
 \begin{document}
@@ -21,12 +22,14 @@ Ahmedabad, Gujarat \\ \href{mailto:rikinparekh15147@gmail.com}{rikinparekh15147@
 %	OBJECTIVE
 %----------------------------------------------------------------------------------------
 
+
 \begin{rSection}{PROFILE}
 
-{Proficient in Python, C, and embedded systems with expertise in Arduino and Raspberry Pi. Passionate about robotics, IoT, and AI, with hands-on experience in developing automation solutions, embedded systems, and smart devices.}
-
+{Embedded systems and robotics engineer skilled in digital systems, microcontrollers, and low-level programming. Built processor-level architectures at IIT Gandhinagar and end-to-end IoT systems using STM32, ESP, and Raspberry Pi. Recipient of \rupee 3.2L+ in government grants and national hackathon finalist.}
 
 \end{rSection}
+
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -35,8 +38,8 @@ Ahmedabad, Gujarat \\ \href{mailto:rikinparekh15147@gmail.com}{rikinparekh15147@
 
 {\bf Bachelor of Technology in Information and Communication Technology},\\ Pandit Deendayal Energy University \hfill {Expected 2027}
 \begin{list}{$\circ$}{}
-    \item \textbf{CGPA:} 9.06/10.0  
-    \item \textbf{Coursework:} Digital Logic Design, Signal Processing,Data Structures and Algorithm, Discrete Mathematical Structure, Java, C Programming, Python
+    \item \textbf{CGPA:} 9.08/10.0  [upto 5\textsuperscript{th} Semester]
+    \item \textbf{Coursework:} Embedded Systems, Digital Signal Processing and Communication, AI Systems, Data Structures and Algorithm, Computer Organisation and Design, 3D Modeling
 \end{list}
 
 
@@ -48,55 +51,115 @@ Ahmedabad, Gujarat \\ \href{mailto:rikinparekh15147@gmail.com}{rikinparekh15147@
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-% TECHINICAL STRENGTHS	
-%----------------------------------------------------------------------------------------
+
+
+%-- experience %--
+\begin{rSection}{Experience}
+
+{\bf Electronics and Embedded Systems Engineer Intern}, \\
+Center for Creative Learning, IIT Gandhinagar \href{https://rikinparekh.in/internship/ccl_iitgn_report.pdf}{\faFile} \hfill {July 2025 -- February 2026}
+\begin{list}{$\circ$}{}
+    \item Designed advanced digital-systems prototypes under Prof. Manish Jain for the India Semiconductor Mission, including a fully functional 8-bit breadboard computer; wrote low-level AVR assembly and custom drivers for ATmega328 and display modules.
+    \item Demonstrated projects to national dignitaries including Hon. Shri S. Somnath, Union Ministers Pradhan \& Vaishnaw, and senior officials from NCERT, CBSE, NIC, and MoHA.
+\end{list}
+
+{\bf Embedded Systems Engineer Intern}, STEMbotix \hfill {May 2025 -- June 2025}
+\begin{list}{$\circ$}{}
+    \item Built a production-ready quadruped robot and an interactive STEM game system, developing firmware, peripheral interfaces, and hardware integration across STM32 and other microcontroller platforms.
+\end{list}
+
+\end{rSection}
+
+
 \begin{rSection}{SKILLS}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & Python, C, MATLAB, Embedded C, SQL
+Programming Languages & Python, C, Embedded C, Assembly, MATLAB
 \\
-Microcontrollers and Platforms & Arduino, ESP32, Raspberry Pi \\
-Frameworks and Tools & Django, Git, Linux\\
+Microcontrollers and Platforms & AVR (Arduino), ESP32/ESP8266, ARM Cortex-M (STM32), Raspberry Pi \\
+Frameworks and Tools & Microchip Studio, OpenCV, Django, Flask, Rest APIs, Solid Works,\\ & Datamatics TruBot, Git, Numpy, Pandas, Linux\\
 \end{tabular}\\
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+
 \begin{rSection}{Projects}
 
-\textbf{Underwater ROV} \hfill 2024\
- \begin{itemize}
-   \item[]
-   Designed and developed a \textbf{remotely operated underwater vehicle} for structural analysis of submerged infrastructure. Integrated BLDC motors with Raspberry Pi for precise maneuverability and real-time control. Led a team of four through ideation, prototyping, and testing, \textbf{securing \rupee50,000 in funding} for further development.
-   
-    % \textbf{Developed a remotely operated underwater vehicle (ROV) for Robofest, designed for maintenance analysis of submerged structures such as dams and bridges. Led a team of four through multiple competition stages, from ideation to prototype development. Engineered the propulsion system using BLDC motors controlled via a Raspberry Pi. Implemented real-time maneuverability and control for underwater operations. Successfully advanced through the competition, securing funding of Rs.50,000 and recognition for innovation in underwater robotics.}
-    %  \item Achieved X\% growth for XYZ using A, B, and C skills.
-    %  \item Led XYZ which led to X\% of improvement in ABC
-    % \item Developed XYZ that did A, B, and C using X, Y, and Z. 
- \end{itemize}
+\textbf{Print\&Go – Smart Printing Kiosk}  \href{https://printandgo.co.in}{\faGlobe}
+\hfill 2025 - Present\\
+    \textit{Received \rupee2.5L grant under the Government of Gujarat’s Student Startup \& Innovation Policy (SSIP).}
+    \begin{itemize}
+    \item Designed a 24×7 self-service document-printing vending machine with peer-to-peer encryption, secure file upload, and automated payment/printing workflow.
+\end{itemize}
 
-\textbf{Robotic Process Automation} \hfill 2024\
+\textbf{SegReClaim – Incentive-Based Waste Collection System} \href{https://segreclaim.rikinparekh.in}{\faGlobe} \hfill 2025 - Present\\
+    \textit{Received \rupee70k grant under the Government of Gujarat’s Student Startup \& Innovation Policy (SSIP).}
+     \begin{itemize}
+    
+    \item Built a reverse-vending IoT system that automatically identifies, segregates, and rewards recyclable waste deposits, promoting sustainable disposal practices.
+\end{itemize}
+
+\textbf{Underwater ROV} \hfill 2024\\
+    \textit{Cleared Level I of Robofest and was awarded \rupee50,000 funding for continued development.}
  \begin{itemize}
-   \item[]
-    Developed an \textbf{RPA} solution at the \textbf{Datamatics Hackathon} to automate repetitive business processes, enhancing efficiency and accuracy. Designed and implemented a bot using Python and Datamatics automation frameworks to streamline data extraction, processing, and reporting. Optimized workflow automation, reducing manual effort and improving operational speed. Successfully reached the finals at \textbf{IIT Bombay}, showcasing the solution’s impact and scalability in real-world applications.
-    %  \item Achieved X\% growth for XYZ using A, B, and C skills.
-    %  \item Led XYZ which led to X\% of improvement in ABC
-    % \item Developed XYZ that did A, B, and C using X, Y, and Z. 
- \end{itemize}
+
+    \item Developed ideation and a prototype for a remotely operated underwater vehicle (ROV) for submerged structural inspection, engineering a BLDC motor-driven propulsion system controlled via Raspberry Pi for real-time 6-DOF maneuvering; secured \rupee 50,000 in development funding upon advancing at Robofest, validating the design's technical and commercial potential.
+% \item Designed and developed a remotely operated underwater vehicle for structural analysis of submerged infrastructure.
+
+% \item Integrated BLDC motors with a Raspberry Pi for precise maneuverability and real-time control.
+\end{itemize}
+
+\textbf{8 bit CPU on breadboard from scratch} \hfill 2025
+ \begin{itemize}
+    \item \textbf{Engineered a fully functional 8-bit CPU from scratch on a breadboard}, implementing a custom programmable control unit using EEPROM as a lookup-based instruction decoder, a Python-scripted binary ROM generator, and an 8×8-bit RAM architecture using 74LS189 ICs — demonstrating deep understanding of digital logic and computer architecture at the hardware level.
+    \item \textbf{Designed and executed a complete instruction execution pipeline} featuring a 8-bit program counter (with 74LS161) with JMP and branch support, a variable-frequency clock module (555 timer) with manual/auto switching, and successfully validated the system by running the Fibonacci series — proving end-to-end functionality from clock signal to program output.
+\end{itemize}
+
+% \textbf{Robotic Process Automation}  \href{https://github.com/Jayesh-Gautam/Datamatics-Hackathon}{\faGithub} \hfill 2024\\
+% \textit{Reached the finals of the Datamatics Hackathon at IIT Bombay}
+%  \begin{itemize}
+%     \item Developed an RPA solution using Python and Datamatics automation frameworks to streamline data extraction and processing; selected as a finalist at IIT Bombay.
+%    % \item
+%    %  Developed an \textbf{RPA} solution at the \textbf{Datamatics Hackathon} to automate repetitive business processes, enhancing efficiency and accuracy. 
+%    %  \item Designed and implemented a bot using \textbf{Python and Datamatics automation frameworks} to streamline data extraction, processing, and reporting. 
+%    %  \item Successfully reached the finals at \textbf{IIT Bombay}, showcasing the solution’s impact and scalability in real-world applications.
+%  \end{itemize}
  
-\textbf{Smart Mirror} \hfill 2023\
- \begin{itemize}
- \item[]
-    Developed a smart mirror that displays \textbf{daily routines}, Google Calendar events, and New York Times news, while also allowing Spotify control and \textbf{integration with smart assistants} like Google Assistant or Alexa. Powered by a \textbf{Raspberry Pi}, it uses a \textbf{two-way film} on the surface, enabling it to function as both a display and a regular mirror, creating an interactive and functional addition to any smart home.
-    %  \item Achieved X\% growth for XYZ using A, B, and C skills.
-    %  \item Led XYZ which led to X\% of improvement in ABC
-    % \item Developed XYZ that did A, B, and C using X, Y, and Z. 
- \end{itemize}
+%  \textbf{Smart Mirror} \hfill 2023\\
+%     \textit{Showcased at National Children’s Science Congress (NCSC) 2023}
+%  \begin{itemize}
+
+%     \item Developed a Raspberry Pi–powered smart mirror displaying daily routines, calendars, news, and media controls using a two-way reflective film and modular UI.
+%  % \item
+%  %    Developed a smart mirror that displays \textbf{daily routines}, Google Calendar events, and New York Times news, while also allowing Spotify control and \textbf{integration with smart assistants} like Google Assistant or Alexa. Powered by a \textbf{Raspberry Pi}, it uses a \textbf{two-way film} on the surface, enabling it to function as both a display and a regular mirror, creating an interactive and functional addition to any smart home.
+%     %  \item Achieved X\% growth for XYZ using A, B, and C skills.
+%     %  \item Led XYZ which led to X\% of improvement in ABC
+%     % \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
  
-\textbf{Indian AI Product Finder} \hfill 2021\
- \begin{itemize}
- \item[]
-    Created an Indian AI product finder during Intel AI bootcamp, where I learned about \textbf{natural language processing}. Using a dataset of Indian products from Amazon sourced from Kaggle, the \textbf{AI analyzes} customer descriptions to find equivalent local versions, making it easier for users to discover Indian alternatives to their desired products.\\
- \end{itemize}
+ 
+% \textbf{Indian AI Product Finder} \hfill 2021\
+%  \begin{itemize}
+
+% \item Applied natural language processing (NLP) techniques to analyze customer descriptions.
+
+% \item Designed the system to recommend local Indian alternatives based on user queries. Utilized a Kaggle-sourced Amazon dataset containing Indian products.
+%  \end{itemize}
+ 
+
+
+ % \textbf{Computer Vision for Waste Segregation using MobileNet Architecture} \hfill 2025\
+ % \begin{itemize}
+ % % \item[]
+ %    \item 
+ %    Implemented a waste classification system using transfer learning on a pretrained MobileNet model.
+
+ %    \item Fine-tuned the network to classify different types of waste materials (e.g., plastic, metal, organic).
+
+ % \end{itemize}
+
 
 \end{rSection} 
 
@@ -127,26 +190,28 @@ Frameworks and Tools & Django, Git, Linux\\
     \item \textbf{Top 5 Finalist – Nirman 1.0, PDEU SOM \& IIC } \hfill Apr, 2025 \\ Secured 5th position in a university-level innovation and entrepreneurship competition. Received a cash prize of \rupee8000. Project details are confidential due to ongoing development potential.
     \item \textbf{Two Time Finalist - Datamatics Hackathon, IIT Bombay } \hfill Dec, 2024\\ \hspace*{\fill} Dec, 2023 \\ Developed an RPA solution to automate business processes, enhancing efficiency and accuracy.
     \item \textbf{Winner - Round 1, Robofest (Underwater ROV Category)}  \hfill Aug, 2024 \\ Led a team in designing and prototyping a remotely operated underwater vehicle for structural analysis of submerged infrastructure. Secured \rupee50,000 in funding.
-    \item \textbf{Top 15 (Regional) - NASA Space Apps Challenge } \hfill Oct, 2023 \\ Competed in high-level hackathons, showcasing innovative problem-solving and technical expertise.
-    \item \textbf{Exhibitor - National Children's Science Congress (NCSC) \& Tarang Fest } \hfill Jan, 2023 \\ Presented smart mirror and IoT-based projects representing Atal Tinkering Lab.
+    %     \item \textbf{Exhibitor - National Children's Science Congress (NCSC) \& Tarang Fest } \hfill Jan, 2023 \\ Presented smart mirror and IoT-based projects representing Atal Tinkering Lab.
 \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Co-Curricular Experience}
 \begin{itemize}
-    \item \textbf{Cretus Robotics Club - Active Member} \\ Engaged in hands-on robotics workshops, hackathons, and technical competitions, expanding expertise in embedded systems, automation, and AI.  
-    \item \textbf{Intel AI Bootcamp - Participant} \\ Developed an AI-based Indian product finder for Amazon, leveraging machine learning techniques to enhance search optimization.  
-    \item \textbf{Atal Tinkering Lab - Mentor \& Workshop Conductor} \\ Supervised and organized STEM workshops for students, promoting innovation in robotics and IoT.  
-    \item \textbf{Civic \& Social Services Internship (CSSI) - Volunteer} \\ Assisted visually impaired individuals at Navjyot Andhjan Mandal, contributing to accessibility and inclusive technology initiatives.  
+    \item \textbf{Cretus Robotics Club - Technical Lead} \\ Engaged in hands-on robotics workshops, hackathons, and technical competitions, expanding expertise in embedded systems, automation, and AI.  
+    % \item \textbf{Intel AI Bootcamp - Participant} \\ Developed an AI-based Indian product finder for Amazon, leveraging machine learning techniques to enhance search optimization.  
+    \item \textbf{Atal Tinkering Lab - Mentor \& Workshop Conductor} \\ Supervised and organized STEM workshops for students, promoting innovation in robotics and IoT.    
 \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Certifications \& Learning} 
 \begin{itemize}
-    \item \textbf{IBM SkillsBuild: Building AI Solutions Using Advanced Algorithms and Open Source Frameworks }\hfill 2025 \\ Learned to build AI models using advanced machine learning algorithms and open-source frameworks like and scikit-learn.
-    \item \textbf{Harvard CS50: Introduction To AI} \hfill2024 \\Covers fundamental AI concepts, machine learning, and neural networks 
-    \item \textbf{Harvard CS50: Web Development with Django} \hfill 2022 \\Learned backend development using Django, SQL, and REST APIs.
-    \item \textbf{Intel AI Bootcamp }\hfill 2021\\Focused on NLP, trained an AI-based Indian product finder using Amazon product datasets.
+    \item \textbf{Silver Elite Certification – Drone Systems \& Control (IISc Bangalore, Score: 83\%) } \href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25AE30S115060018110775085}{\faFile}
+\hfill 2025
+    \item \textbf{IBM SkillsBuild: Building AI Solutions Using Advanced Algorithms and Open Source Frameworks } \href{https://www.credly.com/badges/97f94498-22fa-4daa-8b79-af7fa23581db/}{\faFile} \hfill 2025
+\item \textbf{Hosted Robotics \& Embedded Systems Workshop at New LJ university} \href{https://rikinparekh.in/resume/lj_host_cert.pdf}{\faFile} \hfill 2026
+    % \\ Learned to build AI models using advanced machine learning algorithms and open-source frameworks such as scikit-learn.
+    % \item \textbf{Harvard CS50: Introduction To AI} \hfill2024 \\Covers fundamental AI concepts, machine learning, and neural networks 
+    % \item \textbf{Intel AI Bootcamp }\hfill 2021
+    % \\Focused on NLP, trained an AI-based Indian product finder using Amazon product datasets.
 \end{itemize}
 
 
